@@ -1,0 +1,6 @@
+framework module QRCodeGenerator {
+  umbrella header "QRCodeGenerator.h"
+
+  export *
+  module * { export * }
+}

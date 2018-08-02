@@ -13,11 +13,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xxdzyyh@163.com/QRCodeGenerator'
+  s.homepage         = 'https://github.com/xxdzyyh/TestCocoapodsPackage.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xxdzyyh@163.com' => 'wangxuefeng2@xiaoniu66.com' }
-  s.source           = { :path => '.' }
+  s.source           = { :git => 'https://github.com/xxdzyyh/TestCocoapodsPackage.git',:branch => 'master' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
