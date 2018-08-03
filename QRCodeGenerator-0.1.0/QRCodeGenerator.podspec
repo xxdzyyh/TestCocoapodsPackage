@@ -6,7 +6,6 @@ Pod::Spec.new do |s|
   s.authors = {"xxdzyyh@163.com"=>"wangxuefeng2@xiaoniu66.com"}
   s.homepage = "https://github.com/xxdzyyh/TestCocoapodsPackage.git"
   s.description = "TODO: Add long description of the pod here."
-  s.frameworks = "UIKit"
   s.source = { :path => '.' }
 
   s.ios.deployment_target    = '8.0'

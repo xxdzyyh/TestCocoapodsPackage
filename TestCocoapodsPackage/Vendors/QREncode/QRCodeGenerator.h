@@ -22,6 +22,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AFNetworking/AFNetworking.h>
 
 @interface QRCodeGenerator : NSObject
 

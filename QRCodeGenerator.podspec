@@ -17,9 +17,10 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xxdzyyh@163.com' => 'wangxuefeng2@xiaoniu66.com' }
-  s.source           = { :git => 'https://github.com/xxdzyyh/TestCocoapodsPackage.git',:branch => 'master' }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.source           = { :git => '/Users/xiaoniu/Workspace/TestCocoapodsPackage',:branch => 'master' }
+  # s.source           = { :git => 'https://github.com/xxdzyyh/TestCocoapodsPackage.git',:branch => 'master' }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
 
   # s.source_files = 'XNOnline/Networking/**/*','XNOnline/General/Classes/{Utils,JSONUtils}/**/*','XNOnline/General/Categories/**/*','XNOnline/Macro/**/*'
@@ -29,8 +30,8 @@ TODO: Add long description of the pod here.
   #   'QRCodeGenerator' => ['QRCodeGenerator/Assets/*.png']
   # }
 
-  s.public_header_files = 'TestCocoapodsPackage/Vendors/QREncode/QRCodeGenerator.h'
-  s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '2.6.3'
+  # s.public_header_files = 'TestCocoapodsPackage/Vendors/QREncode/QRCodeGenerator.h'
+  # s.frameworks = 'UIKit'
+  s.dependency 'AFNetworking', '2.6.3'
 
 end
