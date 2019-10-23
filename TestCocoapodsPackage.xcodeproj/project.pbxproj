@@ -22,6 +22,7 @@
 		D468015A2112AFB70091C335 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = D468014F2112AFB70091C335 /* mask.c */; };
 		D468015B2112AFB70091C335 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = D46801502112AFB70091C335 /* qrspec.c */; };
 		D468015C2112AFB70091C335 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = D46801542112AFB70091C335 /* rscode.c */; };
+		D4D10A1B2118288900CF1F03 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D10A1A2118288900CF1F03 /* Bugly.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		D46801522112AFB70091C335 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
 		D46801532112AFB70091C335 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
 		D46801542112AFB70091C335 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		D4D10A1A2118288900CF1F03 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
 		ED66981123EBC4F1413D14EF /* Pods-TestCocoapodsPackage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCocoapodsPackage.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCocoapodsPackage/Pods-TestCocoapodsPackage.release.xcconfig"; sourceTree = "<group>"; };
 		EE1924283F4322632D56BCF1 /* Pods-TestCocoapodsPackage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCocoapodsPackage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestCocoapodsPackage/Pods-TestCocoapodsPackage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D10A1B2118288900CF1F03 /* Bugly.framework in Frameworks */,
 				977F264D2E20342A878BEAF6 /* libPods-TestCocoapodsPackage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,6 +83,7 @@
 		491C49C42F2C3DB02E068DDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4D10A1A2118288900CF1F03 /* Bugly.framework */,
 				03144FE1A2BD3060514B7E96 /* libPods-TestCocoapodsPackage.a */,
 			);
 			name = Frameworks;
@@ -395,6 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestCocoapodsPackage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -412,6 +420,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestCocoapodsPackage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

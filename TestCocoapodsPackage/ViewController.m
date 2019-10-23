@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import <Bugly/Bugly.h>
+
 @interface ViewController ()
 
 @end
